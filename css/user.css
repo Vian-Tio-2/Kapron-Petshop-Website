@@ -1,0 +1,219 @@
+body {
+    font-size: larger;
+    color: #212529;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+    transition: 0.4s;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+span {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.konten {
+    margin: 0 15%;
+}
+
+.img-preview {
+    width: 150px;
+    height: 150px;
+}
+
+.bg-nice {
+    background: linear-gradient(to right, #007bff, #298ffc)
+}
+
+.login_form_inner {
+    height: 100%;
+    text-align: center;
+    padding: 30px 0
+}
+
+.login_box_area {
+    margin: 40px auto 25px auto;
+}
+
+.login_form_inner h3 {
+    color: #222;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 75px
+}
+
+.login_form_inner .login_form {
+    max-width: 385px;
+    margin: auto
+}
+
+.login_form_inner.reg_form {
+    padding-top: 60px
+}
+
+.login_form_inner.reg_form h3 {
+    margin-bottom: 70px
+}
+
+.login_form .form-group {
+    margin-bottom: 22px
+}
+
+.login_form .form-group input {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    color: #999999
+}
+
+.login_form .form-group input.placeholder {
+    color: #999999
+}
+
+.login_form .form-group input:-moz-placeholder {
+    color: #999999
+}
+
+.login_form .form-group input::-moz-placeholder {
+    color: #999999
+}
+
+.login_form .form-group input::-webkit-input-placeholder {
+    color: #999999
+}
+
+.login_form .form-group .creat_account {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left
+}
+
+.login_form .form-group .creat_account input {
+    height: auto;
+    margin-right: 10px;
+    position: relative;
+    top: 2px
+}
+
+.login_form .form-group a {
+    font-size: 14px;
+    margin-top: 20px;
+    display: block
+}
+
+.nav-tabs {
+    border-bottom: 0px
+}
+
+.btn-outline-primary {
+    border-radius: 100%;
+    background: white;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.nav-item {
+    font-family: "Ubuntu";
+    padding: 0.5rem;
+}
+
+#navUser {
+    z-index: 999;
+}
+
+#navUser .navbar-brand {
+    font-weight: 700;
+    color: #343a40;
+}
+
+#navUser .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+}
+
+#navUser .navbar-nav>li.nav-item>a {
+    font-size: 1rem;
+    font-weight: 650;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+@media only screen and (min-width: 992px) {
+    #navUser {
+        border-bottom: 1px solid transparent;
+        background: transparent;
+    }
+    #navUser .navbar-brand {
+        padding: 10px 20px;
+    }
+    #navUser .navbar-brand:focus,
+    #navUser .navbar-brand:hover {
+        color: #007bff;
+    }
+    #navUser .navbar-nav>li.nav-item>a {
+        padding: 10px 20px;
+    }
+    #navUser .navbar-nav>li.nav-item>a:focus,
+    #navUser .navbar-nav>li.nav-item>a:hover {
+        color: #007bff;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #navUser {
+        transition: background-color 0.2s;
+        /* Force Hardware Acceleration in WebKit */
+        transform: translate3d(0, 0, 0);
+        -webkit-backface-visibility: hidden;
+    }
+    #navUser.is-fixed {
+        /* when the user scrolls down, we hide the header right above the viewport */
+        position: fixed;
+        top: -69px;
+        transition: transform 0.2s;
+        border-bottom: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    #navUser.is-fixed .navbar-brand {
+        color: #212529;
+    }
+    #navUser.is-fixed .navbar-brand:focus,
+    #navUser.is-fixed .navbar-brand:hover {
+        color: #007bff;
+    }
+    #navUser.is-fixed .navbar-nav>li.nav-item>a {
+        color: #212529;
+    }
+    #navUser.is-fixed .navbar-nav>li.nav-item>a:focus,
+    #navUser.is-fixed .navbar-nav>li.nav-item>a:hover {
+        color: #007bff;
+    }
+    #navUser.is-visible {
+        /* if the user changes the scrolling direction, we show the header */
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+#navUser .navbar-nav>li.nav-item>.dropdown-menu>a:focus,
+#navUser .navbar-nav>li.nav-item>.dropdown-menu>a:hover {
+    color: #007bff;
+}
