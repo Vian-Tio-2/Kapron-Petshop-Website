@@ -1,0 +1,184 @@
+img {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+
+img:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+label:hover {
+    color: #007bff;
+}
+
+#main-content {
+    padding: 8rem 10% 0 10%;
+}
+
+#card-bank:hover {
+    background-color: #ececec;
+}
+
+.text-checkout {
+    margin: 20px 10px;
+}
+
+.cart_area {
+    padding-top: 20px;
+    padding-bottom: 0
+}
+
+.media .d-flex {
+    padding-right: 30px
+}
+
+.media .d-flex img {
+    width: auto;
+    height: 120px;
+    border-radius: 10px
+}
+
+@media (max-width: 600px) {
+    .media .d-flex img {
+        width: auto;
+        height: 100px
+    }
+}
+
+.media-body {
+    vertical-align: middle;
+    align-self: center
+}
+
+.media-body p {
+    margin: 0px
+}
+
+.cart_inner .table th,
+.cart_inner .table td {
+    padding: .75rem 1.5rem;
+    border-color: #EEEEEE
+}
+
+.cart_inner .table thead tr th {
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: #222;
+    border-bottom: 0px !important
+}
+
+.cart_inner .table tbody tr td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    align-self: center
+}
+
+.cart_inner .table tbody tr td h5 {
+    font-size: 15px;
+    color: #222;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px
+}
+
+.cart_inner .table tbody tr.bottom_button td:last-child {
+    width: 60px
+}
+
+.cart_inner .table tbody tr td .product_count {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0px
+}
+
+.cart_inner .table tbody tr td .product_count input {
+    width: 76px;
+    height: 35px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    padding-left: 10px
+}
+
+.cart_inner .table tbody tr td .product_count button {
+    display: block;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.cart_inner .table tbody tr td .product_count button:hover {
+    color: #222
+}
+
+.cart_inner .table tbody tr td .product_count .increase {
+    margin-top: 2px;
+    top: -2px
+}
+
+.cart_inner .table tbody tr td .product_count .increase:before {
+    content: "";
+    height: 35px;
+    width: 1px;
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    background: #eeeeee
+}
+
+.cart_inner .table tbody tr td .product_count .increase:after {
+    content: "";
+    height: 1px;
+    width: 25px;
+    position: absolute;
+    left: -3px;
+    top: 22px;
+    background: #eeeeee
+}
+
+.cart_inner .table tbody tr td .product_count .reduced {
+    margin-bottom: 2px;
+    bottom: -6px
+}
+
+.cart-bottom {
+    margin: 2rem 0;
+    display: inline;
+}
+
+.cart-bottom p {
+    margin: 15px 0;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+.cart-bottom a {
+    padding: 10px 35px;
+}
+
+.bank-icon {
+    width: auto;
+    height: 50px;
+}
+
+.card .card-header {
+    background: #f1f8ff;
+}
